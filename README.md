@@ -1,4 +1,4 @@
-# Data Structure and Algorithim problems. 
+# Data Structure and Algorithim problems
 
 ## Sources
 [Structy](structy.net) </br >

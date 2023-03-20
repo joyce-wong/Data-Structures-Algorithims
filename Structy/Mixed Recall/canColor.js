@@ -78,7 +78,7 @@ const canColor = (graph) => {
     const coloring = {}
     for(let node in graph){
       if(!(node in coloring)) {
-if(validate(graph, node, coloring, false) === false) return false
+        if(validate(graph, node, coloring, false) === false) return false
   }
     }
     return true

@@ -29,7 +29,7 @@ function productSum(array, multiplier = 1) {
       for(let el of array){
         //check to see if each element is or contains a sub-array
         if(Array.isArray(el)){
-          //if so, add the sum to the recursive case
+          //if so, add the recursive case to the sum
         sum += productSum(el, multiplier + 1)
           //otherwise add the element to the sum
         } else {     
